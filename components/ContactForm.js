@@ -18,25 +18,3 @@ var ContactForm = React.createClass({
 })
 
 
-
-/*React.createElement('form', {className: 'contactForm container form-inline'},
-        React.createElement('input', {
-          className: 'form-control',
-          type: 'text',
-          placeholder: 'Imię',
-          value: this.props.contact.firstName,
-        }),
-        React.createElement('input', {
-          className: 'form-control',
-          type: 'text',
-          placeholder: 'Nazwisko',
-          value: this.props.contact.lastName,
-        }),
-        React.createElement('input', {
-          className: 'form-control',
-          type: 'email',
-          placeholder: 'Email',
-          value: this.props.contact.email,
-        }),
-        React.createElement('button', {type: 'submit', className: 'btn btn-primary'}, "Dodaj kontakt")
-      )*/
