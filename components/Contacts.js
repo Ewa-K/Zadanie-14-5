@@ -9,7 +9,9 @@ var Contacts = React.createClass({
         });
 
         return (
-            React.createElement('ul', { className: 'contactsList container' }, contacts)
+            <ul className:"contactsList container"> 
+                { contacts }
+            </ul>
         );
     }
 });
